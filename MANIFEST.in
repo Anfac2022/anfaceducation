@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include anfaceducation *.css
+recursive-include anfaceducation *.csv
+recursive-include anfaceducation *.html
+recursive-include anfaceducation *.ico
+recursive-include anfaceducation *.js
+recursive-include anfaceducation *.json
+recursive-include anfaceducation *.md
+recursive-include anfaceducation *.png
+recursive-include anfaceducation *.py
+recursive-include anfaceducation *.svg
+recursive-include anfaceducation *.txt
+recursive-exclude anfaceducation *.pyc
