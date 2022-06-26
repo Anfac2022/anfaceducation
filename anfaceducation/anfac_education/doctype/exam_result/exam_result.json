@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-24 16:56:34.995576",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student",
+  "term_1",
+  "term_2",
+  "final_exam",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student",
+   "options": "Student"
+  },
+  {
+   "default": "0",
+   "fetch_from": "0",
+   "fieldname": "term_1",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Term 1"
+  },
+  {
+   "default": "0",
+   "fieldname": "term_2",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Term 2"
+  },
+  {
+   "default": "0",
+   "fieldname": "final_exam",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Final Exam"
+  },
+  {
+   "default": "0",
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-26 07:12:59.482194",
+ "modified_by": "Administrator",
+ "module": "Anfac Education",
+ "name": "Exam Result",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
